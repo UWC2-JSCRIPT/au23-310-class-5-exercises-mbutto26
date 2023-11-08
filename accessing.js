@@ -5,5 +5,5 @@ head2.innerText = `February 10 Weather Forecast, Seattle`;
 // Change the styling of every element with class "sun" to set the color to "orange"
 
 // Change the class of the second <li> from to "sun" to "cloudy"
-
-weather = document.getElementsBy;
+const weather = document.querySelector(`li.sun`);
+weather.classList.add(`li.cloudy`);
