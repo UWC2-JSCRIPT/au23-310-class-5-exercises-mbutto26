@@ -6,4 +6,5 @@ head2.innerText = `February 10 Weather Forecast, Seattle`;
 
 // Change the class of the second <li> from to "sun" to "cloudy"
 const weather = document.querySelector(`li.sun`);
-weather.classList.add(`li.cloudy`);
+weather.classList.remove(`sun`);
+weather.classList.add(`cloudy`);
