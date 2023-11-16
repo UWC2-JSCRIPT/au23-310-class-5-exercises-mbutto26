@@ -3,7 +3,7 @@
 // x, y coordinates of the mouse at the time of the click
 
 function printMousePos(event) {
-  document.body.textContent =
+  document.table.textContent =
     "clientX: " + event.clientX + " - clientY: " + event.clientY;
 }
 
