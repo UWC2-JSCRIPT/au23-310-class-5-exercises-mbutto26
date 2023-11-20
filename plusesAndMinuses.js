@@ -14,5 +14,5 @@ const minusEl = document.getElementById("minus");
 minusEl.addEventListener("click ", () => {
   counter--;
   document.getElementById("count").innerHTML = counter;
-  console.log(`count is ${counter}`);
+  console.log(`Count is ${counter}`);
 });
