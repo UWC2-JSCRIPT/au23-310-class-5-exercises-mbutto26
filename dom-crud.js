@@ -14,7 +14,7 @@ body.appendChild(para);
 
 const imgColors = document.querySelector("img").getAttribute("data-color");
 
-console.log("imgColors");
+console.log(imgColors);
 
 // Update the third <li> item ("Turbocharged"),
 // set the class name to "highlight"
