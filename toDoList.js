@@ -12,6 +12,6 @@ const addListItem = function (e) {
   e.preventDefault();
   const input = this.parentNode.getElementsByTagName("input")[0];
   const text = input.value; // use this text to create a new <li>
-
+  input.value = "";
   // Finish function here
 };
